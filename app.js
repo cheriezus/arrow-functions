@@ -112,10 +112,10 @@ console.log('Hello from the new object function', newObject(['hi', 'hello', 'are
 //   return a + b + c + d;
 // };
 
-// let sum = (a, b, c, d) => a+b+c+d;
+let sum = (a, b, c, d) => a+b+c+d;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sum(1, 2, 3, 4));
+console.log(sum(1, 2, 3, 4));
 
 
 // let objectLit = function() {
@@ -158,8 +158,12 @@ let message = function(name) {
   return `Hello, ${name}!`;
 };
 
+// let message = (name) => {
+//   return `Hello, ${name}!`;
+// };
+
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(message('Allie'));
+console.log(message('Allie'));
 
 
 let Student = function(name, age, hometown) {
