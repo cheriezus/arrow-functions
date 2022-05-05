@@ -112,10 +112,10 @@ console.log('Hello from the new object function', newObject(['hi', 'hello', 'are
 //   return a + b + c + d;
 // };
 
-let sum = (a, b, c, d) => a+b+c+d;
+// let sum = (a, b, c, d) => a+b+c+d;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(sum(1, 2, 3, 4));
+// console.log(sum(1, 2, 3, 4));
 
 
 // let objectLit = function() {
@@ -135,17 +135,23 @@ let objectLit = () => ({
 
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(objectLit());
+// console.log(objectLit());
 
 
-let sumAndProduct = function(a, b) {
+// let sumAndProduct = function(a, b) {
+//   let sum = a + b;
+//   let product = a * b;
+//   return [sum, product];
+// };
+
+let sumAndProduct = (a, b) => {
   let sum = a + b;
   let product = a * b;
-  return [sum, product];
+   return [sum, product];
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sumAndProduct(3, 9));
+console.log(sumAndProduct(3, 9));
 
 
 let message = function(name) {
